@@ -8,4 +8,5 @@ Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux
 <img width="1365" height="767" alt="2" src="https://github.com/user-attachments/assets/9d56fb32-c858-4af4-815d-3073aa2e188d" />
 
 ### Criando a lista de senhas e usúarios personalizada 
+Nota: A mesma lista será utilizada para realizar o ataque de força-bruta na aplicação Web do DVWA
 <img width="1365" height="767" alt="4" src="https://github.com/user-attachments/assets/086862ad-521a-47c5-97b5-6beaf8391ff1" />
