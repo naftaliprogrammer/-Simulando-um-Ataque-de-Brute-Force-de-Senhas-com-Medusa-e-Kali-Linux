@@ -15,6 +15,7 @@ Nota: A mesma lista será utilizada para realizar o ataque de força-bruta na ap
 
 ## Realizei um ataque de brute-force no serviço ftp usando o ncrack. 
 Nota: A ferramenta encontrou uma combinação de username e passoword - *Credenciais.*
+
 Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar entrar em outros serviços com o mesmo username (usúario) ou senha
 
 <img width="1365" height="767" alt="5" src="https://github.com/user-attachments/assets/9ca08de8-1c72-4354-8cc0-b572bd3ce8bd" />
