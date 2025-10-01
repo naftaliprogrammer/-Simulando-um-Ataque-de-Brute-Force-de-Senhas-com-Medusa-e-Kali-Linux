@@ -7,3 +7,6 @@ Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux
 ### Teste de conectividade usando o utilitário de rede ping.
 <img width="1365" height="767" alt="2" src="https://github.com/user-attachments/assets/9d56fb32-c858-4af4-815d-3073aa2e188d" />
 
+
+
+<img width="1365" height="767" alt="4" src="https://github.com/user-attachments/assets/086862ad-521a-47c5-97b5-6beaf8391ff1" />
