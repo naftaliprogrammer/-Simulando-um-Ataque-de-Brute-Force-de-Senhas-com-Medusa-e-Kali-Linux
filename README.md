@@ -18,7 +18,7 @@ Nota: A ferramenta encontrou uma combinação de username e passoword - *Credenc
 
 Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar entrar em outros serviços com o mesmo username (usúario) ou senha
 
-# Depois que o ataque *Credentials Stuffing* foi executado, encontramos o username e passowrd para realizar o login usando o ssh (secure shell) na porta padrão 22.
+## Depois que o ataque *Credentials Stuffing* foi executado, encontramos o username e passoword para realizar o login usando o ssh (secure shell) na porta padrão 22.
 <img width="1365" height="767" alt="5" src="https://github.com/user-attachments/assets/61dd7651-988e-4108-88a1-3384e3277760" />
 
 
