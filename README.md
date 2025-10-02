@@ -21,9 +21,19 @@ Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar 
 <img width="1365" height="767" alt="5" src="https://github.com/user-attachments/assets/61dd7651-988e-4108-88a1-3384e3277760" />
 
 
-<img width="1365" height="794" alt="8-curl-part1" src="https://github.com/user-attachments/assets/ca458590-c2c3-4d2b-8d3b-a6d763b6b766" />
+
+<img width="1365" height="727" alt="7" src="https://github.com/user-attachments/assets/6e22cfa3-b8ce-40fe-ab94-7d76f3a43296" />
 
 
-<img width="1365" height="727" alt="7" src="https://github.com/user-attachments/assets/bb68cf06-e0b6-49fa-b1c4-ebc3e9fed349" />
+
+<img width="1365" height="794" alt="8-curl-part1" src="https://github.com/user-attachments/assets/04f2651e-0873-40f9-9784-458d8659151d" />
+
+
+<img width="1365" height="767" alt="8-curl-part2" src="https://github.com/user-attachments/assets/46a8444a-cf3c-41e4-8c18-23b94562c810" />
+
+
+
+
+
 
 
