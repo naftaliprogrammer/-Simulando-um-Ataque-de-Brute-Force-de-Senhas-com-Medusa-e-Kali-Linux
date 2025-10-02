@@ -29,8 +29,11 @@ Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar 
 ## Na enumeração, a porta 80 (http) foi considerada como open - aberta. 
 Podemos usar a ferramenta cli **curl** para verificar se existe arquivos interesantes ou formulários...
 <img width="1365" height="794" alt="8-curl-part1" src="https://github.com/user-attachments/assets/04f2651e-0873-40f9-9784-458d8659151d" />
-A resposta da nossa solicitação foi 200 (OK) e obtive mais informações no corpo da resposta http.
-Acima podemos ver que o metodo http usado foi o ""GET"", código "HTML" ou o source code da página, e o alvo alcançado - Host. 
+
+
+- A resposta à nossa solicitação foi 200 (OK), e obtivemos informações adicionais no corpo da resposta HTTP.
+Podemos observar que o método HTTP utilizado foi GET, o conteúdo retornado corresponde ao código-fonte HTML da página, e o alvo acessado foi o host especificado.
+
 
 ## Part2 - OUTPUT do request - "CURL"
 <img width="1365" height="767" alt="8-curl-part2" src="https://github.com/user-attachments/assets/46a8444a-cf3c-41e4-8c18-23b94562c810" />
@@ -43,11 +46,13 @@ Vamos realizar uma tentiva de login usando as credenciais fornecidas previamente
 <img width="1365" height="767" alt="9-ftp-part1" src="https://github.com/user-attachments/assets/94925dc3-b3a1-4a04-97f2-a4b62df615c3" />
 
 
-Observe que tivemos êxito na autenticação. Temos um nivel de autorização considerado alto, pois, consiguimos acessar a pasta "/home" de forma muito fácil.
+ - Observe que tivemos êxito na autenticação. Temos um nivel de autorização considerado alto, pois, consiguimos acessar a pasta "/home" de forma muito fácil.
 Será que tem arquivos na pasta "/home/msfadmin"?
 
-Não temos arquivos, porém, temos uma diretorio com permissões inseguras. O criador pode; Ler (R), Escrever (Write) e executar (x) convidados ou outros apenas podem executar (x).
-Isso significar que podemos entrar no diretorio, mas não podemos criar (escrever) e nem Ler(R) arquivos/files.
+- Não encontramos arquivos, porém existe um diretório com permissões inseguras.
+- O proprietário possui permissões de leitura (r), escrita (w) e execução (x). Já os usuários convidados ou outros têm apenas permissão de execução (x).
+- Isso significa que podemos entrar no diretório, mas não podemos criar (escrever) nem ler arquivos.
+
 
 <img width="1365" height="767" alt="9-ftp-part2" src="https://github.com/user-attachments/assets/971f5fc4-16bf-4f3e-a7ab-b62855234abb" />
 
