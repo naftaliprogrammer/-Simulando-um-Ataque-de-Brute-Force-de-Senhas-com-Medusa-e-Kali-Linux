@@ -14,7 +14,7 @@ Nota: A mesma lista será utilizada para realizar o ataque de força-bruta na ap
 <img width="1365" height="767" alt="4" src="https://github.com/user-attachments/assets/086862ad-521a-47c5-97b5-6beaf8391ff1" />
 
 ## Realizei um ataque de brute-force no serviço ftp usando o ncrack. 
-Nota: A ferramenta encontrou uma combinação de username e passoword - *Credenciais.*
+Nota: A ferramenta encontrou uma combinação de username e password - *Credenciais.*
 
 Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar entrar em outros serviços com o mesmo username (usúario) ou senha
 
@@ -45,6 +45,12 @@ Vamos realizar uma tentiva de login usando as credenciais fornecidas previamente
 
 Observe que tivemos êxito na autenticação. Temos um nivel de autorização considerado alto, pois, consiguimos acessar a pasta "/home" de forma muito fácil.
 Será que tem arquivos na pasta "/home/msfadmin"?
+
+
+<img width="1365" height="767" alt="9-ftp-part2" src="https://github.com/user-attachments/assets/971f5fc4-16bf-4f3e-a7ab-b62855234abb" />
+
+
+
 
 
 
