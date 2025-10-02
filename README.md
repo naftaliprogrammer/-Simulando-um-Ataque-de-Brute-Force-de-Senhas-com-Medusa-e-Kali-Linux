@@ -42,7 +42,7 @@ Vamos realizar uma tentiva de login usando as credenciais fornecidas previamente
 
 <img width="1365" height="767" alt="9-ftp-part1" src="https://github.com/user-attachments/assets/94925dc3-b3a1-4a04-97f2-a4b62df615c3" />
 
-> Observe que tivemos êxito na autenticação.
+>> Observe que tivemos êxito na autenticação.
 
 
 
