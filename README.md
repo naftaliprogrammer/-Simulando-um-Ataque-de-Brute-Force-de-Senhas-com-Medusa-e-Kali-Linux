@@ -30,10 +30,11 @@ Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar 
 Podemos usar a ferramenta cli **curl** para verificar se existe arquivos interesantes ou formulários...
 <img width="1365" height="794" alt="8-curl-part1" src="https://github.com/user-attachments/assets/04f2651e-0873-40f9-9784-458d8659151d" />
 A resposta da nossa solicitação foi 200 (OK) e obtive mais informações no corpo da resposta http.
-Acima podemos ver que o metodo http usado foi o "GET", código "HTML" ou o source code da página, e o alvo alcançado - Host. 
+Acima podemos ver que o metodo http usado foi o ""GET"", código "HTML" ou o source code da página, e o alvo alcançado - Host. 
 
 ## Part2 - OUTPUT do request - "CURL"
 <img width="1365" height="767" alt="8-curl-part2" src="https://github.com/user-attachments/assets/46a8444a-cf3c-41e4-8c18-23b94562c810" />
+Podemos notar que temos hiperlinks ou caminhos para outras paginas dentro do site **http://192.168.192.129**
 
 
 
