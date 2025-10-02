@@ -46,8 +46,19 @@ Vamos realizar uma tentiva de login usando as credenciais fornecidas previamente
 Observe que tivemos êxito na autenticação. Temos um nivel de autorização considerado alto, pois, consiguimos acessar a pasta "/home" de forma muito fácil.
 Será que tem arquivos na pasta "/home/msfadmin"?
 
+Não temos arquivos, porém, temos uma diretorio com permissões inseguras. O criador pode; Ler (R), Escrever (Write) e executar (x) convidados ou outros apenas podem executar (x).
+Isso significar que podemos entrar no diretorio, mas não podemos criar (escrever) e nem Ler(R) arquivos/files.
 
 <img width="1365" height="767" alt="9-ftp-part2" src="https://github.com/user-attachments/assets/971f5fc4-16bf-4f3e-a7ab-b62855234abb" />
+
+## Ataque de Brute-Force em formúlarios Web do alvo usando o BurpSuite Community.
+
+ Interceptei uma request (solicitação) de tentativa de login no site do alvo.
+ 
+<img width="1365" height="767" alt="10-Bforceweb-part1" src="https://github.com/user-attachments/assets/cfca2bd0-5e79-487a-b439-35b7c4560f42" />
+
+
+
 
 
 
