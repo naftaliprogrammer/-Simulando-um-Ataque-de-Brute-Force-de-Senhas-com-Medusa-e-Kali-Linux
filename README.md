@@ -63,6 +63,17 @@ Será que tem arquivos na pasta "/home/msfadmin"?
 <img width="1365" height="767" alt="10-Bforceweb-part1" src="https://github.com/user-attachments/assets/cfca2bd0-5e79-487a-b439-35b7c4560f42" />
 
 
+Neste print, estou simulando um ataque de força bruta contra um ambiente vulnerável utilizando o **Burp Suite Community Edition**. A aplicação-alvo é o **DVWA (Damn Vulnerable Web Application)**, hospedada em `http://192.168.192.129/dvwa/login.php`.
+
+No lado esquerdo da tela, configurei uma requisição **HTTP POST** no Burp Suite, enviando credenciais de login (`username=admin&password=1234`) para testar a resposta do servidor. A requisição inclui cabeçalhos padrão como `Content-Type: application/x-www-form-urlencoded`, `User-Agent`, `Referer` e outros que simulam o comportamento de um navegador legítimo.
+
+À direita, estou documentando o processo em um terminal com editor de texto aberto. Nele, escrevi um pequeno script com uma lista de **payloads de usuário e senha** que serão utilizados no ataque de força bruta. Essa lista inclui combinações comuns como `admin`, `1234`, `admin1`, `admin2`, `teste`, entre outras.
+
+O objetivo deste teste é verificar se o sistema possui mecanismos de proteção contra tentativas automatizadas de login, como bloqueio por IP, CAPTCHA ou limitação de requisições. Até o momento, o ambiente se mostrou vulnerável, permitindo múltiplas tentativas sem restrições aparentes.
+
+
+
+<img width="1365" height="767" alt="10-Bforceweb-part2" src="https://github.com/user-attachments/assets/04bd3367-8363-4686-9831-5c5cc62c1dac" />
 
 
 
