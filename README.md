@@ -37,6 +37,14 @@ Acima podemos ver que o metodo http usado foi o ""GET"", código "HTML" ou o sou
 
 Podemos notar que o *Host*  tem hiperlinks ou caminhos para outras páginas dentro do site **http://192.168.192.129.**
 
+## Na enumeração, também encontramos a porta 21 marcada como open.
+Vamos realizar uma tentiva de login usando as credenciais fornecidas previamente pela a ferramenta ncrack.
+
+<img width="1365" height="767" alt="9-ftp-part1" src="https://github.com/user-attachments/assets/94925dc3-b3a1-4a04-97f2-a4b62df615c3" />
+
+> Observe que tivemos êxito na autenticação.
+
+
 
 
 
