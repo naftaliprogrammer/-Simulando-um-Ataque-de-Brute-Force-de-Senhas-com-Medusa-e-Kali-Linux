@@ -62,7 +62,7 @@ Será que tem arquivos na pasta "/home/msfadmin"?
  
 <img width="1365" height="767" alt="10-Bforceweb-part1" src="https://github.com/user-attachments/assets/cfca2bd0-5e79-487a-b439-35b7c4560f42" />
 
-
+__
 
 Neste print, estou simulando um ataque de força bruta contra um ambiente vulnerável utilizando o **Burp Suite Community Edition**. A aplicação-alvo é o **DVWA (Damn Vulnerable Web Application)**, hospedada em `http://192.168.192.129/dvwa/login.php`.
 
