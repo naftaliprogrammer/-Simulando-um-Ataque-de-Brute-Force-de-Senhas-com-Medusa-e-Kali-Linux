@@ -13,7 +13,7 @@ Nota: A mesma lista será utilizada para realizar o ataque de força-bruta na ap
 
 <img width="1365" height="767" alt="4" src="https://github.com/user-attachments/assets/086862ad-521a-47c5-97b5-6beaf8391ff1" />
 
-## Realizei um ataque de brute-force no serviço ftp usando o ncrack. 
+## Realizei um ataque de brute-force no serviço FTP (FILE TRANSFER PROTOCOL) usando o ncrack. 
 Nota: A ferramenta encontrou uma combinação de username e password - *Credenciais.*
 
 Mindset Hacker: Podemos executar uma ataque de Credentials Stuffing para tentar entrar em outros serviços com o mesmo username (usúario) ou senha
@@ -174,6 +174,7 @@ OBS: Esqueci de tira prints da configuração dos payloads e suas posições.
 
 >
 A aplicação Web estava com o nível de segurança (**Security Level**) medium ou médio.
+__
 
 <img width="1365" height="767" alt="10-Bforcelevel" src="https://github.com/user-attachments/assets/5e8fee9c-74a2-4dca-b7eb-407da343beb7" />
 
