@@ -173,8 +173,10 @@ OBS: Esqueci de tira prints da configuração dos payloads e suas posições.
 <img width="1365" height="767" alt="10-Bforcewebintruder-part6" src="https://github.com/user-attachments/assets/d5a79fab-5da8-45f2-a477-78faa7c78df5" />
 
 >
-A aplicação Web estava com o nível de segurança (**Security Level**) medium ou médio.
-__
+# A aplicação Web estava com o nível de segurança (**Security Level**) medium ou médio.
+
+
+>
 
 <img width="1365" height="767" alt="10-Bforcelevel" src="https://github.com/user-attachments/assets/5e8fee9c-74a2-4dca-b7eb-407da343beb7" />
 
