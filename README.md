@@ -106,8 +106,7 @@ No corpo da requisição, estou testando as credenciais:
 username=admin&password=admin
 ```
 
-O **Repeater** é essencial para este tipo de análise, pois me permite modificar os parâmetros de forma rápida e observar a resposta HTTP da aplicação em tempo real. Com isso, consigo identificar padrões de resposta, mensagens de erro, e potenciais falhas de autenticação que podem ser exploradas em ataques mais avançados, como força bruta ou SQL Injection.
-
+O **Repeater** é essencial para este tipo de análise, pois me permite modificar os parâmetros de forma rápida e observar a resposta HTTP da aplicação em tempo real. Com isso, consigo identificar padrões de resposta, mensagens de erro, e potenciais falhas de autenticação que podem ser exploradas em ataques mais avançados, como `força bruta`.
 
 <img width="1365" height="767" alt="10-Bforceweb-part3" src="https://github.com/user-attachments/assets/a9edbbc6-97b5-4c92-8c3c-bb73a9ffa474" />
 
@@ -149,7 +148,7 @@ O **Repeater** é uma ferramenta essencial para esse tipo de análise, pois me p
 
 No lado direito do print, o navegador exibe a interface da DVWA com o formulário de login. Após o envio da requisição manipulada, a aplicação retorna a mensagem **"Login failed"**, indicando que as credenciais testadas não foram aceitas. Essa resposta é útil para validar o comportamento da aplicação diante de diferentes combinações de usuário e senha.
 
-Esse processo é parte da fase de **reconhecimento e enumeração de falhas**, onde busco entender como a aplicação trata entradas inválidas e se há espaço para ataques como **força bruta**, **SQL Injection** ou **bypass de autenticação**.
+Esse processo é parte da fase de **reconhecimento e enumeração de falhas**, onde busco entender como a aplicação trata entradas inválidas e se há espaço para ataques como **força bruta** ou **bypass de autenticação**.
 
 
 
