@@ -68,7 +68,7 @@ Neste print, estou simulando um ataque de força bruta contra um ambiente vulner
 
 No lado esquerdo da tela, configurei uma requisição **HTTP POST** no Burp Suite, enviando credenciais de login (`username=admin&password=admin`) para testar a resposta do servidor. A requisição inclui cabeçalhos padrão como `Content-Type: application/x-www-form-urlencoded`, `User-Agent`, `Referer` e outros que simulam o comportamento de um navegador legítimo.
 
-À direita, estou documentando o processo em um terminal com editor de texto aberto. Nele, escrevi um pequeno script com uma lista de **payloads de usuário e senha** que serão utilizados no ataque de força bruta. Essa lista inclui combinações comuns como `admin`, `1234`, `admin1`, `admin2`, `teste`, entre outras.
+À direita, estou documentando o processo em um terminal com editor de texto aberto. Nele, a notei as combinações de username e password - a lista de **payloads de usuário e senha** que serão utilizados no ataque de força bruta. Essa lista inclui combinações comuns como `admin`, `1234`, `admin1`, `admin2`, `teste`, entre outras.
 
 O objetivo deste teste é verificar se o sistema possui mecanismos de proteção contra tentativas automatizadas de login, como bloqueio por IP, CAPTCHA ou limitação de requisições. Até o momento, o ambiente se mostrou vulnerável, permitindo múltiplas tentativas sem restrições aparentes.
 --
