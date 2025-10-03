@@ -113,6 +113,45 @@ O **Repeater** é essencial para este tipo de análise, pois me permite modifica
 
 
 
+---
+
+
+<img width="1365" height="767" alt="10-Bforceweb-part4" src="https://github.com/user-attachments/assets/be56d37b-36f6-40d0-b4d6-d5c3a9c13cc5" />
+
+
+Neste momento do projeto, estou utilizando  o módulo **Repeater**, para realizar testes manuais de autenticação na aplicação vulnerável.
+
+No lado esquerdo do print, o Burp Suite exibe uma requisição **HTTP POST** que estou manipulando diretamente no Repeater. Essa requisição é enviada para o endpoint `/dvwa/login.php`, e contém os seguintes parâmetros no corpo:
+
+```
+username=msfadmin&password=naftali&Login=Login
+```
+
+Os cabeçalhos da requisição foram mantidos conforme o navegador original, simulando uma tentativa legítima de login:
+
+```
+POST /dvwa/login.php HTTP/1.1
+Host: 192.168.1.10
+Content-Length: 44
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.1.10
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Referer: http://192.168.1.10/dvwa/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Connection: close
+```
+
+O **Repeater** é uma ferramenta essencial para esse tipo de análise, pois me permite modificar os parâmetros da requisição — como o nome de usuário, senha ou até mesmo o campo `Login` — e reenviar rapidamente para observar como o servidor responde. Isso facilita a identificação de padrões de resposta, mensagens de erro específicas e possíveis brechas no mecanismo de autenticação.
+
+No lado direito do print, o navegador exibe a interface da DVWA com o formulário de login. Após o envio da requisição manipulada, a aplicação retorna a mensagem **"Login failed"**, indicando que as credenciais testadas não foram aceitas. Essa resposta é útil para validar o comportamento da aplicação diante de diferentes combinações de usuário e senha.
+
+Esse processo é parte da fase de **reconhecimento e enumeração de falhas**, onde busco entender como a aplicação trata entradas inválidas e se há espaço para ataques como **força bruta**, **SQL Injection** ou **bypass de autenticação**.
+
+
 
 
 
