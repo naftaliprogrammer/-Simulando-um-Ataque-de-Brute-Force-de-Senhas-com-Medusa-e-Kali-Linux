@@ -169,7 +169,7 @@ OBS: Esqueci de tira prints da configuração dos payloads e suas posições.
 
 >
 >
- - USER and PASS FOUND !!!
+ ## USER and PASS FOUND !!!
 <img width="1365" height="767" alt="10-Bforcewebintruder-part6" src="https://github.com/user-attachments/assets/d5a79fab-5da8-45f2-a477-78faa7c78df5" />
 
 >
@@ -179,4 +179,9 @@ A aplicação Web estava com o nível de segurança (**Security Level**) medium 
 
 
 
+Considerações Finais:
+Esse foi um projeto simulando não apenas, um ataque de brute-force, mas diversos ataques em ambiente ético e autorizado por mim, @NaftalidaCosta.
+É importante o conhecimento, o Santander e a DIO promovem bootcamps em diversas áreas. Esse projeto foi realizado durante a fase de Desafio de Projeto do Bootcamp **Santader -Cibersegurança 2025**
+Como estudante de Tecnologia da Informação sou grato por participar dos Bootcamps do Santander & Dio e realizar os desafios de todos os bootcamps.
+Atensiosamente, Naftali da Costa
 
