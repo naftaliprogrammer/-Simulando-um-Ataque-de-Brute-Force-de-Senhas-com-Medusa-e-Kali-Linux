@@ -150,11 +150,32 @@ No lado direito do print, o navegador exibe a interface da DVWA com o formulári
 
 Esse processo é parte da fase de **reconhecimento e enumeração de falhas**, onde busco entender como a aplicação trata entradas inválidas e se há espaço para ataques como **força bruta** ou **bypass de autenticação**.
 
+>
+>
 
+- A resposta da solicitação. O Status code foi `302 Found` isso indica que ocorreu falha no login...
+- Vamos automatizar usar `Intruder` para realizar o ataque de brute-force.
+<img width="1365" height="767" alt="10-Bforceweb-part5" src="https://github.com/user-attachments/assets/3580a134-525e-4ba4-b1ea-8f54b07f088f" />
 
+>
 
+OBS: Esqueci de tira prints da configuração dos payloads e suas posições.
 
+<img width="1365" height="767" alt="10-Bforcewebintruder-part5" src="https://github.com/user-attachments/assets/0d37d9f8-057d-43fe-b6e2-f7be1da80d7a" />
 
+- Na imagem, podemos ver no lado direito que o `Intruder Attack` que realizei foi direcionado para a URL ```http://192.168.192.129```.
+- Já no lado esquerdo podemos ver que a aplicação retornou ```You have logged in as 'admin'```. Com essa informação podemos ter a certeza que o usúario é admin.
+- E podemos tentar um login com o ```Payload 2``` que contém o valor  **password** na segunda solicitação ou request 2.
+
+>
+>
+ - USER and PASS FOUND !!!
+<img width="1365" height="767" alt="10-Bforcewebintruder-part6" src="https://github.com/user-attachments/assets/d5a79fab-5da8-45f2-a477-78faa7c78df5" />
+
+>
+A aplicação Web estava com o nível de segurança (**Security Level**) medium ou médio.
+
+<img width="1365" height="767" alt="10-Bforcelevel" src="https://github.com/user-attachments/assets/5e8fee9c-74a2-4dca-b7eb-407da343beb7" />
 
 
 
