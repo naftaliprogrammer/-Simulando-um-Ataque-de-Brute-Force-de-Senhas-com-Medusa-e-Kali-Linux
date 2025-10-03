@@ -1,4 +1,5 @@
-# Simulando-um-Ataque-de-Brute-Force-de-Senhas
+## Desafio de projeto - "Santander - Cibersegurança 2025"
+# Simulando-Ataques-de-Brute-Force
 Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux or Parrot OS e a ferramenta Medusa, ncrack, Hydra, BurpSuite em conjunto com ambientes vulneráveis (por exemplo, Metasploitable 2 e DVWA), para simular cenários de ataque de força bruta e exercitar medidas de prevenção.
 
 ## Configurações de rede do alvo
