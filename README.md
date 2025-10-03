@@ -75,7 +75,41 @@ O objetivo deste teste é verificar se o sistema possui mecanismos de proteção
 
 <img width="1365" height="767" alt="10-Bforceweb-part2" src="https://github.com/user-attachments/assets/04bd3367-8363-4686-9831-5c5cc62c1dac" />
 
+>
+>
 
+No print abaixo, estou utilizando o **Burp Suite Community Edition** para realizar testes de segurança em uma aplicação vulnerável, o **DVWA (Damn Vulnerable Web Application)**, acessível em `http://192.168.192.129/dvwa/login.php`.
+
+O foco principal está no módulo **Repeater**, onde estou manipulando e reenviando uma requisição **HTTP POST** para o endpoint de login da aplicação. Essa funcionalidade do Burp Suite permite testar manualmente diferentes combinações de parâmetros e observar como o servidor responde a cada tentativa.
+
+A requisição enviada inclui os seguintes cabeçalhos:
+
+```
+POST /dvwa/login.php HTTP/1.1
+Host: 192.168.192.129
+Content-Length: 29
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.192.129
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Referer: http://192.168.192.129/dvwa/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Connection: close
+```
+
+No corpo da requisição, estou testando as credenciais:
+
+```
+username=admin&password=admin
+```
+
+O **Repeater** é essencial para este tipo de análise, pois me permite modificar os parâmetros de forma rápida e observar a resposta HTTP da aplicação em tempo real. Com isso, consigo identificar padrões de resposta, mensagens de erro, e potenciais falhas de autenticação que podem ser exploradas em ataques mais avançados, como força bruta ou SQL Injection.
+
+
+<img width="1365" height="767" alt="10-Bforceweb-part3" src="https://github.com/user-attachments/assets/a9edbbc6-97b5-4c92-8c3c-bb73a9ffa474" />
 
 
 
