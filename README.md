@@ -178,10 +178,10 @@ A aplicação Web estava com o nível de segurança (**Security Level**) medium 
 <img width="1365" height="767" alt="10-Bforcelevel" src="https://github.com/user-attachments/assets/5e8fee9c-74a2-4dca-b7eb-407da343beb7" />
 
 
-
-Considerações Finais:
-Esse foi um projeto simulando não apenas, um ataque de brute-force, mas diversos ataques em ambiente ético e autorizado por mim, @NaftalidaCosta.
-É importante o conhecimento, o Santander e a DIO promovem bootcamps em diversas áreas. Esse projeto foi realizado durante a fase de Desafio de Projeto do Bootcamp **Santader -Cibersegurança 2025**
-Como estudante de Tecnologia da Informação sou grato por participar dos Bootcamps do Santander & Dio e realizar os desafios de todos os bootcamps.
+>
+## Considerações Finais:
+- Esse foi um projeto simulando não apenas, um ataque de brute-force, mas diversos ataques em ambiente ético e autorizado por mim, @NaftalidaCosta.
+- É importante o conhecimento, o Santander e a DIO promovem bootcamps em diversas áreas. Esse projeto foi realizado durante a fase de Desafio de Projeto do Bootcamp **Santader -Cibersegurança 2025**.
+- Como estudante de Tecnologia da Informação sou grato por participar dos Bootcamps do Santander & Dio e realizar os desafios de todos os bootcamps.
 Atensiosamente, Naftali da Costa
 
