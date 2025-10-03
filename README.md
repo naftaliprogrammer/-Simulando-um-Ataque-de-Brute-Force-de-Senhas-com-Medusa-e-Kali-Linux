@@ -181,7 +181,7 @@ A aplicação Web estava com o nível de segurança (**Security Level**) medium 
 >
 ## Considerações Finais:
 - Esse foi um projeto simulando não apenas, um ataque de brute-force, mas diversos ataques em ambiente ético e autorizado por mim, @NaftalidaCosta.
-- É importante o conhecimento, o Santander e a DIO promovem bootcamps em diversas áreas. Esse projeto foi realizado durante a fase de Desafio de Projeto do Bootcamp **Santader -Cibersegurança 2025**.
+- É importante o conhecimento, o Santander e a DIO promovem bootcamps em diversas áreas. Esse projeto foi realizado durante a fase de Desafio de Projeto do Bootcamp **Santader - Cibersegurança 2025**.
 - Como estudante de Tecnologia da Informação sou grato por participar dos Bootcamps do Santander & Dio e realizar os desafios de todos os bootcamps.
-Atensiosamente, Naftali da Costa
+- Atensiosamente, Naftali da Costa.
 
