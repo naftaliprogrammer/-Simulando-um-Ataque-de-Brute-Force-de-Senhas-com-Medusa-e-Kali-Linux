@@ -130,11 +130,11 @@ Os cabeçalhos da requisição foram mantidos conforme o navegador original, sim
 
 ```
 POST /dvwa/login.php HTTP/1.1
-Host: 192.168.1.10
+Host: 192.168.192.129
 Content-Length: 44
 Cache-Control: max-age=0
 Upgrade-Insecure-Requests: 1
-Origin: http://192.168.1.10
+Origin: http://192.168.192.129
 Content-Type: application/x-www-form-urlencoded
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
